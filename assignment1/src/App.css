@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mycells {
+  color: black;
+  background-color: rgb(195, 195, 195);
+  flex-basis: calc(33% - 5%);
+  margin: 20px; 
+  padding: 20px; 
+  display: flex;
+
+}
+
+.profile-image {
+  
+  border-radius: 50%;
+  width: 120px; 
+  height: 120px; 
+  margin-right: 20px; 
+}
+
+.profile-details {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 20px;
+}
+
+.name {
+  font-size:medium;
+  margin: 0;
+}
+
+
